@@ -1,0 +1,112 @@
+/* reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#333;
+    /* restore background image like services page */
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("images/slider-1.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+/* keep about sections on solid backgrounds */
+.about-hero{
+    background:#2ecc71; /* green hero background */
+}
+
+/* hero section */
+.about-hero{
+    padding:100px 0;
+    background:white; /* green hero background */
+    color:#fff;
+}
+.about-hero .section-header h1{
+    font-size:36px;
+    text-transform:uppercase;
+    margin-bottom:10px;
+}
+.about-hero .section-header p{
+    color:#777;
+    max-width:600px;
+    margin:0 auto 40px;
+    line-height:1.5;
+}
+.hero-content{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    gap:30px;
+    justify-content:center;
+}
+.hero-content .hero-img{
+    flex:1 1 300px;
+}
+.hero-content .hero-img img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+.hero-content .hero-text{
+    flex:1 1 300px;
+}
+.hero-content .hero-text h2{
+    color:#2ecc71;
+    margin-bottom:20px;
+}
+.hero-content .hero-text p{
+    margin-bottom:20px;
+    line-height:1.6;
+}
+.hero-content .hero-text .btn{
+    background:white;
+    color:#fff;
+    padding:10px 20px;
+    text-decoration:none;
+    display:inline-block;
+}
+
+/* cards beneath hero */
+.about-cards,
+.about-cards.services {
+    background: none !important;
+    background-color: transparent !important;
+}
+.about-cards .single-service{
+    text-align:center;
+    padding:30px 15px;
+}
+
+/* footer override for green color */
+footer{
+    background:#2ecc71 !important;
+    color:#fff;
+}
+footer a{
+    color:#fff;
+}
+.about-cards .single-service img{
+    width:100%;
+    height:auto;
+    margin-bottom:20px;
+}
+.about-cards .single-service h4{
+    margin-bottom:15px;
+    font-size:20px;
+}
+.about-cards .single-service p{
+    color:#777;
+    font-size:14px;
+    line-height:1.6;
+    margin-bottom:20px;
+}
+.about-cards .single-service .btn{
+    background:#2ecc71;
+    color:#fff;
+    padding:10px 20px;
+    text-decoration:none;
+}
+            

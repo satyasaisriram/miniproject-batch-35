@@ -1,0 +1,24 @@
+.parent{
+    display: flex;
+    gap: 70px;
+    background-color: green;
+    color: white;
+}
+.a>p{
+    width: 200px;
+}
+.contact>i{
+    padding: 15px;
+}
+.subcription>p{
+    width: 200px;
+}
+.subcribe{
+    display: flex;
+    align-items: end;
+    font-size: 25PX;
+}
+
+
+
+

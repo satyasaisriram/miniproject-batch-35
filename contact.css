@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact-section{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading{
+    width: 90%;
+    margin: auto;
+    padding: 60px 0;
+    text-align: center;
+}
+.heading>h1{
+    margin-bottom: 15px;
+
+}
+.heading>p{
+    color: gray;
+    margin-bottom: 40px;
+}
+/* contact boxes */
+
+.contact-box{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.info-box{
+    border: 1px solid antiquewhite;
+    background-color: antiquewhite;
+    height: 150px;
+    width: 250px;
+    padding: 30px;
+    text-align: center;
+}
+.info-box>i{
+    color: green;
+    font-size: 50px;
+
+/* main-container */
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 90%;
+}
+.map iframe{
+    width: 100%;
+    max-width: 500px;
+}
+
+.contact-form{
+    flex: 1;
+    max-width: 500px;
+}
+.row{
+    margin: 20px 0;
+}
+
+.contact-form .row{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contact-form .row input,
+.contact-form .row textarea{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* first row contains two inputs side by side */
+.contact-form .row:nth-child(1){
+    flex-direction: row;
+    gap: 20px;
+}
+
+.contact-form .row textarea{
+    height: 100px;
+    resize: none;
+}
+
+.contact-form .row button{
+    background-color: green;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+.row>button:hover{
+    background-color: lightgreen;
+}
+
+
+/* go green */
+.parent{
+    display: flex;
+    gap: 70px;
+    background-color:white;
+    color: white;
+    margin-top: 100px;
+}
+.a>p{
+    width: 200px;
+}
+.contact>i{
+    padding: 15px;
+}
+.subcription>p{
+    width: 200px;
+}
+.subcribe{
+    display: flex;
+    align-items: end;
+    font-size: 25PX;
+}
